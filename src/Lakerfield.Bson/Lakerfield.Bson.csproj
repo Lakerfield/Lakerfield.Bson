@@ -5,13 +5,18 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <AssemblyTitle>MongoDB.Bson</AssemblyTitle>
-    <Product>MongoDB.Bson</Product>
+    <AssemblyTitle>Lakerfield.Bson</AssemblyTitle>
+    <Product>Lakerfield.Bson</Product>
     <PackageId>Lakerfield.Bson</PackageId>
-    <Description>Official MongoDB supported BSON library. See https://www.mongodb.com/docs/drivers/csharp/ for more details.</Description>
-    <PackageDescription>MongoDB's Official Bson Library.</PackageDescription>
+    <Description>A clone of the MongoDB.Bson library</Description>
+    <PackageDescription>A clone of the MongoDB.Bson library</PackageDescription>
     <PackageTags>$(PackageTags);bson</PackageTags>
     <IsPackable>true</IsPackable>
+	  <RepositoryUrl>https://github.com/Lakerfield/Lakerfield.Bson</RepositoryUrl>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <EmbedUntrackedSources>false</EmbedUntrackedSources>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
